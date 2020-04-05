@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Page</title>
+  <style>
+    body {
+      background-color: lightgrey;
+      margin: 0;
+    }
+
+    #nav-bar {
+      background-color: rgba(4, 4, 90);
+      padding: 16px;
+      text-align: center;
+    }
+
+    #contact-form {
+      width: 350px;
+      background-color: white;
+      padding: 24px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      border: 1px solid rgb(158, 156, 156);
+    }
+
+    #sub-button {
+      margin-top: 30px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      padding-left: 16px;
+      padding-right: 16px;
+      background-color: rgba(4, 4, 90);
+      border: none;
+      color: white;
+      font-size: 16px;
+    }
+
+    #footer {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      background-color: black;
+      padding: 50px;
+      text-align: center;
+    }
+
+    #footer a{
+      color: rgb(136, 127, 127);
+    }
+
+    .nav-item {
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+
+    .nav-item a {
+      color: white;
+    }
+
+    .input-item {
+      outline: none;
+      border-width: 0 0 1px;
+      border-color: #ccc;
+      font-size: 16px;
+      padding-bottom: 10px;
+      margin-bottom: 12px;
+      margin-top: 16px;
+      width: 100%;
+    }
+
+    .input-item:focus {
+      border-color: rgba(4, 4, 90);
+    }
+  </style>
+</head>
+<body>
+  <nav id="nav-bar">
+    <span class="nav-item"><a href="/">TRIPS</a></span>
+    <span class="nav-item"><a href="/about.html">ABOUT</a></span>
+    <span class="nav-item"><a href="/contact.html">CONTACT</a></span>
+  </nav>
+  <h2 style="text-align: center;">Wanna come on my next trip? Contact Me.</h2>
+  <form id="contact-form">
+    <div>
+      <input type="text" class="input-item" name="full-name" placeholder="Full Name">
+    </div>
+    <div>
+      <input type="email" class="input-item" placeholder="Email">
+    </div>
+    <div>
+      <input type="number" class="input-item" placeholder="Contact Number">
+    </div>
+    <div>
+      <input type="submit" id="sub-button" value="Submit">
+    </div>
+  </form>
+  <footer id="footer">
+    <span class="nav-item"><a href="/">TRIPS</a></span>
+    <span class="nav-item"><a href="/about.html">ABOUT</a></span>
+    <span class="nav-item"><a href="/contact.html">CONTACT</a></span>
+  </footer>
+</body>
+</html>
